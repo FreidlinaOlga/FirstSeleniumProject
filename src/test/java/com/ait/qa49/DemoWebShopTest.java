@@ -1,30 +1,10 @@
 package com.ait.qa49;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import java.time.Duration;
+public class DemoWebShopTest extends TestBase {
 
-public class DemoWebShopTest {
-    WebDriver driver;
-
-    @BeforeMethod
-    public void setUp() {
-        driver = new ChromeDriver();
-        driver.get("https://demowebshop.tricentis.com");
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-    }
-
-    @Test
-    public void openDemoWebShopTest() {
-        System.out.println("Demo web shop is opened!");
-
-    }
 
     @Test
     public void findElementBySimpleLocatorsTest() {
@@ -64,11 +44,9 @@ public class DemoWebShopTest {
         driver.findElement(By.xpath("//h2/ancestor::div"));
         driver.findElement(By.xpath("//h2/ancestor::div[2]"));
         driver.findElement(By.xpath("//h2/following-sibling::div"));
+        driver.findElement(By.cssSelector("[href='/register']"));
+        driver.findElement(By.xpath("//input[@type='submit']"));
 
     }
 
-    @AfterTest
-    public void tearDown() {
-        driver.close();
-    }
 }
