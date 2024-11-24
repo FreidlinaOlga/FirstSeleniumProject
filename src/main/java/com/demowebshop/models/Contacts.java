@@ -1,4 +1,4 @@
-package com.ait.qa49;
+package com.demowebshop.models;
 
 public class Contacts {
     private String firstName;

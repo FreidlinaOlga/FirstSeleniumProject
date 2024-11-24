@@ -1,6 +1,5 @@
 package com.ait.qa49;
 
-import org.checkerframework.checker.units.qual.A;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
