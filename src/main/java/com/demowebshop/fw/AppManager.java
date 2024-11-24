@@ -12,7 +12,12 @@ public class AppManager {
     ContactsHelper contacts;
     public WebDriver driver;
 
+    public AppManager(String browser) {
+        this.browser = browser;
+    }
+
     public void init() {
+
         if (browser.equalsIgnoreCase("chrome")) {
             driver = new ChromeDriver();
         } else if (browser.equalsIgnoreCase("firefox")) {
