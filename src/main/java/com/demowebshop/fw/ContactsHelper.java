@@ -12,7 +12,8 @@ public class ContactsHelper extends BaseHelper {
     }
 
     public boolean isLogOutButtonPresent() {
-        return isElementPresent(By.xpath("//a[@class='ico-logout']"));
+        return isElementPresent
+                (By.xpath("//a[@class='ico-logout']"));
     }
 
     public void clickOnRegisterButton() {
@@ -33,5 +34,9 @@ public class ContactsHelper extends BaseHelper {
 
     public void clickOnRegisterLink() {
         click(By.cssSelector("[href='/register']"));
+    }
+
+    public void clickOnLogOutButton() { click
+            (By.xpath("//a[@class='ico-logout']"));
     }
 }
