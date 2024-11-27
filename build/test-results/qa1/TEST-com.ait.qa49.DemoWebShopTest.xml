@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ait.qa49.DemoWebShopTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-11-27T16:29:18" hostname="DELLSMALL" time="0.503">
+  <properties/>
+  <testcase name="findElementByCssSelectorsTest" classname="com.ait.qa49.DemoWebShopTest" time="0.134"/>
+  <testcase name="findElementBySimpleLocatorsTest" classname="com.ait.qa49.DemoWebShopTest" time="0.124"/>
+  <testcase name="findElementByXPathTest" classname="com.ait.qa49.DemoWebShopTest" time="0.231"/>
+  <system-out><![CDATA[17:29:18.283 [Test worker] INFO  com.ait.qa49.TestBase -- Start test findElementByCssSelectorsTest
+17:29:18.424 [Test worker] INFO  com.ait.qa49.TestBase -- PASSED: findElementByCssSelectorsTest
+17:29:18.427 [Test worker] INFO  com.ait.qa49.TestBase -- Stop test
+17:29:18.428 [Test worker] INFO  com.ait.qa49.TestBase -- --------------
+17:29:18.430 [Test worker] INFO  com.ait.qa49.TestBase -- Start test findElementBySimpleLocatorsTest
+17:29:18.555 [Test worker] INFO  com.ait.qa49.TestBase -- PASSED: findElementBySimpleLocatorsTest
+17:29:18.555 [Test worker] INFO  com.ait.qa49.TestBase -- Stop test
+17:29:18.556 [Test worker] INFO  com.ait.qa49.TestBase -- --------------
+17:29:18.558 [Test worker] INFO  com.ait.qa49.TestBase -- Start test findElementByXPathTest
+17:29:18.789 [Test worker] INFO  com.ait.qa49.TestBase -- PASSED: findElementByXPathTest
+17:29:18.789 [Test worker] INFO  com.ait.qa49.TestBase -- Stop test
+17:29:18.789 [Test worker] INFO  com.ait.qa49.TestBase -- --------------
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

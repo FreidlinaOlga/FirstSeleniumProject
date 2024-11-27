@@ -12,15 +12,7 @@ import java.util.Iterator;
 import java.util.List;
 
 public class DataProviders {
-@DataProvider
-    public Iterator<Object[]> createNewAccount() {
-    List<Object[]> list = new ArrayList<>();
-    list.add(new Object[]{"Anna","Schulz", "an555@gmail.com", "posT567$"});
-    list.add(new Object[]{"Anna1","Schulz", "an556@gmail.com", "posT567$"});
-    list.add(new Object[]{"Anna2","Schulz", "an557@gmail.com", "posT567$"});
 
-    return list.iterator();
-}
 
 @DataProvider
     public Iterator<Object[]> createNewAccountWithCsv() throws IOException {
